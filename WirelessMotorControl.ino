@@ -30,7 +30,7 @@ void loop() {
       Serial.println("3rd gear");
     }
     else if( val =='4'){
-      analogWrite(motorPin,192);
+      analogWrite(motorPin,255);
       Serial.println("motor status:4th gear");
     }
     else if (val == '0') {
